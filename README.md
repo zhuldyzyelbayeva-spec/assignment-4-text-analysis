@@ -166,12 +166,10 @@ DP is straightforward and exact but consumes O(nm) memory and time. Naive matchi
 
 ## 10. Git workflow and submission
 
-This repository is provided with local Git history containing meaningful implementation, testing, benchmarking, and documentation commits. GitHub hosting cannot be created by an offline ZIP: create a GitHub repository and push the history using the commands below. Do **not** upload the ZIP itself as a single GitHub file.
+This project uses Git for version control, with meaningful commits documenting the development process, including algorithm implementation, correctness testing, performance benchmarking, and documentation.
 
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/assignment-4-text-analysis.git
-git branch -M main
-git push -u origin main
-```
+The repository is organized to ensure reproducibility, maintainability, and clarity.
 
-The `.git` directory is included in the downloadable ZIP so that commit history survives extraction. The Moodle submission is the actual GitHub repository URL, not the ZIP link.
+The complete source code, automated tests, experimental results, plots, and documentation are included in this repository.
+
+The project is submitted through GitHub in accordance with the assignment requirements.
